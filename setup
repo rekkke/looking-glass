@@ -1,0 +1,460 @@
+apt-get autoremove
+nano /etc/rc.local
+apt-get remove xscreensaver
+apt-get gnome-screensaver
+apt-get install gnome-screensaver
+service apache2 stop
+apt-get purge apache2
+apt-get autoremove
+apt-get purge apache2
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+nano ~/Desktop/Autostart
+nano ~/.config/autostart
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+passwd
+n
+apt-get remove postfix
+apt-get remove samba
+apt-get autoremove
+apt-get purge samba
+apt-get purge x11
+apt-get purge x11server
+apt-get purge apache2
+sudo apt-get autoremove
+ls
+wget http://www.inetbase.com/scripts/ddos/install.sh
+chmod 0700 install.sh
+./install.sh
+cd /usr/local/ddos
+ls
+nano ddos.conf
+apt-get install ufw
+ufw status
+ufw allow 22
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw default deny outgoing
+sudo ufw allow ssh
+ufw allow 5900
+ufw allow 5901
+ufw allow 6080
+ufw allow 443
+ufw allow 43594
+ufw allow 43595
+ufw allow 80
+ufw allow 1080
+ufw enable
+ufw allow 80
+ufw allow 443
+disable ufw
+ufw enable
+ufw disable
+ufw enable
+apt-get install fail2ban
+apt-get update
+apt-get install fail2ban
+--fix-missing
+apt-get install fail2ban --fix-missing
+ufw allow 53
+ufw limit ssh
+ufw allow svn
+ufw allow out http
+ufw allow out 53
+ufw disable
+ufew enablw
+ufew enable
+ufw enable
+apt-get install fail2ban
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo service fail2ban restart
+ps -ef
+allow 443
+ufw allow 443
+ufw allow 80/tcp
+ufw allow 22/tcp
+ufw allow 443/tcp
+ufw allow ssh
+ufw allow ssh
+ufw allow 443/tcp
+sudo ufw allow from 204.93.240.0/24
+sudo ufw allow from 204.93.177.0/24
+sudo ufw allow from 199.27.128.0/21
+sudo ufw allow from 173.245.48.0/20
+sudo ufw allow from 103.22.200.0/22
+sudo ufw allow from 141.101.64.0/18
+sudo ufw allow from 108.162.192.0/18
+sudo ufw allow from 190.93.240.0/20sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ssh
+sudo ufw allow 3306
+sudo ufw allow from 190.93.240.0/20
+sudo ufw allow http
+/sbin/iptables -I INPUT -j ACCEPT -p tcp --dport 80 -s 2606:4700::/32
+/sbin/iptables -I INPUT -j ACCEPT -p tcp --dport 80 -s 2803:f800::/32
+/sbin/iptables -I INPUT -j ACCEPT -p tcp --dport 80 -s 2400:cb00::/32
+nano /etc/ssh/sshd_config
+ufw allow 6000
+ufw allow 6000/tcp
+/etc/init.d/sshd restart
+service sshd restart
+service ssh restart
+ufw allow https
+ufw disable
+ufw enable
+ufw allow 443
+ufw allow 443/tcp
+ufw allow 43594/tcp
+ufw allow 43595/tcp
+ufw allow 1030/tcp
+ufw allow 1031/tcp
+ufw allow 1032/tcp
+ufw allow 1033/tcp
+ufw disable
+apt-get purge ufw
+apt-get autoremove
+ps ax
+ps -ef | grep novnc
+top
+ps -ef | grep novnc
+ps -ef | grep -e novnc
+ps -ef | grep novnc
+ps -efo | grep novnc
+ps -ef | grep -o novnc
+ps -ef | grep -o novnc
+pkill novnc
+ls
+ps -ef | grep -o novnc
+ps -ef | grep novnc
+killall novnc
+kill 'pidof novnc'
+kill `pidof novnc`
+pidof novnc
+pidof novnc | xargs kill -9
+kill -9 pidof novnc
+kill -9 `pidof novnc`
+kill -1 `pidof novnc`
+kill -1 [pidof novnc]
+kill -1 [`pidof novnc`]
+kill -1 [`pidof novnc`]pgrep novnc
+pgrep novnc
+ps -ef | grep -o novnc
+ps -ef | grep novnc
+killall -v novnc
+kill `ps -ef | grep novnc | grep -v grep | {print $-v`2}awk
+kill `ps -ef | grep novnc | grep -v grep`
+kill `ps -ef | grep novnc`
+passwd
+passwd
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+nano /etc/rc.local
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+./teamviewer_linux.deb
+chmod a+x teamviewer_linux.deb
+./teamviewer_linux.deb
+tar -xf teamviewer_linux.tar.gz
+tar -xf teamviewer_linux.tar.gz
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+nano /etc/init.d/
+cd /etc/init.d/
+ls
+apt-get purge SLiM
+apt-get autoremove
+rm -r /usr/share/slim/
+ls
+nano rc
+nano rc.local
+cd ..
+ls
+rm -rf ~/.local/share/Trash/files
+rm -rf ~/.local/share/Trash/files
+rm -rf ~/.local/share/Trash/
+sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra xscreensaver-screensaver-bsod -y
+sudo apt-get remove gnome-screensaver -y
+nano rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+xhost +localhost
+su xscreensaver
+su
+nano /etc/rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+xhost +localhost
+nano /etc/rc.local
+reboot
+su -xscreensaver
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+su xscreensaver
+nano /etc/rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+nano /etc/rc.local
+reboot
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+su xscreensaver
+nano /etc/rc.local
+cd /home/root/
+cd /root
+cd ~/root
+cd ~
+ls
+cd root
+cd /root
+ls
+nano /etc/rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+su xscreensaver
+nano /etc/rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+nano /etc/rc.local
+xhost +localhost
+xhost +localhost :1
+export DISPLAY
+xhost +localhost :1
+xhost +
+DISPLAY=:1
+xhost +
+xhost +localhost
+nano /etc/rc.local
+reboot
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+su xscreensaver
+nano /etc/rc.local
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+xscreensaver
+su xscreensaver
+passwd
+nano /etc/rc.local
+crontab -e
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+su xscreensaver
+crontab -e
+passwd
+reboot
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+su xscreensaver
+cd /etc/init
+ls
+DISPLAY=:1
+xhost +localhost
+export display
+xhost +localhost
+export DISPLAY=:1
+xhost +
+nano /etc/rc.local
+passwd xscreensaver
+passwd
+passwd -u xscreensaver
+passwd -u xscreensaver
+passwd xscreensaver
+rm -r ~/.local/share/Trash/files
+rm -r ~/.local/share/Trash
+rm -r ~/.local/share/Trash
+rm -r ~/.local/share/Trash
+vncpasswd
+cd /var/log
+ls
+rm auth.log
+rm boot.log
+rm dmesg.0
+rm dmesg.1.gz
+rm syslog
+ls
+rm mail.log
+rm fail2ban.log
+cd apt
+ls
+cd ..
+ls
+cd ConsoleKit
+ls
+rm history
+cd ..
+ls
+rm lastlog
+cd /var/log
+ls
+last
+rm wtmp
+rm btmp
+ls
+rm dmesg
+cd apt
+ls
+cd ..
+cd fsck
+ls
+cd checkfs
+nano checkfs
+vncpasswd
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+mkdir /usr/lib/mozilla/plugins
+cd ./usr/lib
+cd /usr/lib
+ls
+mkdir mozilla
+ls
+cd mozilla
+mkdir plugins
+ls
+cd plugins
+cd /usr/lib/
+ls
+cd jvm
+ls
+cd java-8-oracle
+ls
+cd jre
+ls
+cd lib
+cd ..
+cd plugin
+ls
+cd desktop
+ls
+cd ..
+cd ..
+ls
+cd lib
+ls
+cd i386
+ls
+cd /usr/lib/mozilla/plugins
+ln -s /usr/lib/jvm/java-8-oracle/jre/lib/i386/libnpjp2.so
+vncpasswd
+C4jvWvzAmj
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+cd
+cd Downloads
+ls
+cd
+ls
+cd Downloads
+ls
+wget http://osbot.org/mvc/get
+wget https://tribot.org/download.php
+vncpasswd
+C4jvWvzAmj
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+apt-get update && apt-get upgrade
+htop
+apt-get install htop
+htop
+apt-get --purge autoremove postfix
+apt-get --purge autoremove bind9
+htop
+update-java-alternatives
+update-java-alternatives -l
+cd /usr/lib/klibc/
+cd ../jvm/
+ls
+cd java-8-oracle/
+ls
+cd ../
+rm .java-8-oracle.jinfo
+for logs in `find /var/log -type f`; do > $logs; done
+cd
+ls
+cd Downloads
+apt-get update
+apt-get install libxslt1.1
+vncpasswd
+vncpasswd
+(password)
+nohup ./noVNC/utils/launch.sh --vnc localhost:5901 &
+export DISPLAY=:1
+xhost +localhost
+su xscreensaver
+vncpasswd
