@@ -1,4 +1,4 @@
-yum update
+yum -y update
 rpm -ivh http://mirror.facebook.net/fedora/epel/6/x86_64/epel-release-6-7.noarch.rpm
 wget http://javadl.sun.com/webapps/download/AutoDL?BundleId=68233 -O java.rpm
 rpm -Uvh java.rpm
@@ -8,7 +8,7 @@ vncserver && vncserver -kill :1
 sed -i 's/twm/startxfce4/g' ~/.vnc/xstartup
 vncserver
 rm -rf *.rpm
-yum install java
+yum -y install java
 cd Desktop
 wget https://tribot.org/bin/TRiBot_Loader.jar
 wget http://cdn.rsbuddy.com/live/f/loader/OSBuddy.jar?x=10
