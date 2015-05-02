@@ -12,5 +12,4 @@ wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2F
 rpm -i jdk-8u45-linux-x64.rpm
 cd Desktop
 wget https://tribot.org/bin/TRiBot_Loader.jar
-wget dl.maxthon.com/linux/rpm/i386/packages/maxthon-browser-stable-1.0.5.3-1.i386.rpm
-yum -y install maxthon-browser-stable-1.0.5.3-1.i386.rpm
+wget https://rsbuddy.com/osbuddy/download?iaccept=true&fileFormat=jar
